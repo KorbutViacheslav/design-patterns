@@ -1,4 +1,4 @@
-package org.example;
+package org.example.decorators;
 
 import java.util.Base64;
 

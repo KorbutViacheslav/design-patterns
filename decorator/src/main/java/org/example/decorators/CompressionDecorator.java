@@ -1,4 +1,4 @@
-package org.example;
+package org.example.decorators;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -12,7 +12,7 @@ import java.util.zip.InflaterInputStream;
 public class CompressionDecorator extends DataSourceDecorator {
     private int compLevel = 6;
 
-    CompressionDecorator(DataSource source) {
+    public CompressionDecorator(DataSource source) {
         super(source);
     }
 

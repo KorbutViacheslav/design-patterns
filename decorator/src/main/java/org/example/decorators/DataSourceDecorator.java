@@ -1,4 +1,4 @@
-package org.example;
+package org.example.decorators;
 
 public class DataSourceDecorator implements DataSource {
 
