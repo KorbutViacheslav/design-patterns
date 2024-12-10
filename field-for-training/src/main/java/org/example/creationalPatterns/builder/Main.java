@@ -1,6 +1,6 @@
-package org.example.builder;
+package org.example.creationalPatterns.builder;
 
-import org.example.builder.humanBuilder.Human;
+import org.example.creationalPatterns.builder.humanBuilder.Human;
 
 public class Main {
     public static void main(String[] args) {

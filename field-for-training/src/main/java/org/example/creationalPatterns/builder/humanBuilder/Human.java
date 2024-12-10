@@ -1,4 +1,4 @@
-package org.example.builder.humanBuilder;
+package org.example.creationalPatterns.builder.humanBuilder;
 
 public class Human {
     private String name;
