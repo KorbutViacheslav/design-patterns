@@ -1,0 +1,11 @@
+Є 2 таблиці one to many,
+треба написати select query яка дістане перші 5 User з Order в статусі "Plays"
+і ім'я User щоб починалось на "John"
+
+SELECT u.id, u.name
+FROM users u
+JOIN orders o ON u.id = o.user_id
+WHERE o.status = 'Plays'
+AND u.name
+LIKE 'John%'
+LIMIT 5;

@@ -1,4 +1,4 @@
-package org.example.tasksInterview;
+package org.example.tasksInterview.sortedEmployee;
 
 import java.util.Objects;
 
